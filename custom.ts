@@ -10,7 +10,7 @@ enum Strings {
     composer
 }
 namespace hi {
-    //% block="save $songarray name $name by  $composer with tags $tags"
+    //% block="save $songarray with length $length name $name by $composer with tags $tags"
     //% songarray.shadow=variables_get
     //% songarray.defl="mySongArray"
     //% group=General
